@@ -1,0 +1,35 @@
+{
+  "include": [
+    "server",
+    "client",
+    "shared",
+    "tests"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/.git"
+  ],
+  "pythonVersion": "3.13",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingTypeStubs": false,
+  "stubPath": "",
+  "venvPath": ".",
+  "venv": "",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.13",
+      "pythonPlatform": "Windows",
+      "extraPaths": [
+        "client",
+        "server",
+        "shared",
+        "C:\\Users\\tahan\\AppData\\Roaming\\Python\\Python313\\site-packages",
+        "C:\\Program Files\\Python313\\Lib\\site-packages"
+      ]
+    }
+  ]
+}
